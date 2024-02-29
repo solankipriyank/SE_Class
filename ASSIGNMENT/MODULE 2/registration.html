@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3</title>
+    <style>
+        body{
+            background-image: url(https://wallpapers.com/images/featured/hd-a5u9zq0a0ymy2dug.webp);
+            background-size: cover;
+        }
+        input{
+            display: block;
+            margin-bottom: 20px;
+        }
+        label{
+            width: 110px;
+            font-size: 20px;
+            font-weight: 800;
+            color: rgb(11, 3, 136);
+            background-color: rgba(245, 224, 199, 0.493);
+        }
+        #form1{
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            padding: auto;
+        }
+        div{
+            padding: auto;
+            display: flex;
+            /* display: block; */
+            align-items: center;
+        }
+        button{
+            width: 110px;
+            height:35px;
+            align-self: center;
+            border-radius: 40px;   
+            background-color: lightslategray;
+            color: beige;
+        }
+        h1{
+            color: yellow;
+        }
+    </style>
+    <!-- <link rel="stylesheet" href="mod_2_007_css.css"> -->
+</head>
+<body>
+    <div></div>
+    <div>
+        <form action="nothing.js" id="form1">
+            <h1>Registration Form</h1>
+            <label for="name">Name</label>
+            <input type="text" placeholder="Enter Your Name" name="name" id="name" required>
+
+            <label for="Email">Email ID</label>
+            <input type="email" placeholder="Enter Your Email Address" name="email" id="email" required>
+
+            <label for="country">Country</label>
+            <input type="text" placeholder="Enter Country name" name="country" id="country" required>
+
+            <label for="mobile">Mobile NO.</label>
+            <input type="text" placeholder="Enter Your Mobile Number" name="mobile" id="mobile" required>
+
+            <label for="Password">Passsword</label>
+            <input type="password" placeholder="Enter Your Password" name="password" id="password" required>
+
+            <!-- <label for="button_for_create">Create Account</label> -->
+            <!-- <input type="button" placeholder="Create Account"> -->
+            <button type="button">Create Account</button>
+
+        </form>
+    </div>
+</body>
+</html>

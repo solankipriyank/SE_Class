@@ -1,0 +1,14 @@
+a {
+    color: blue;     
+    text-decoration: none; 
+  }
+  a:hover {
+    color: red; 
+  }
+  a:visited {
+    color: purple;
+  }
+  a:active {
+    color: green; 
+  }
+  
